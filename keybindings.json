@@ -1,0 +1,101 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+shift+/",
+        "command": "editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "-editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "cursorEnd",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "end",
+        "command": "-cursorEnd",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "cursorEndSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+end",
+        "command": "-cursorEndSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+e",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "-workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "-editor.action.selectAll"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "-list.selectAll",
+        "when": "listFocus && listSupportsMultiselect && !inputFocus"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "cursorHome",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "home",
+        "command": "-cursorHome",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "cursorHomeSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+home",
+        "command": "-cursorHomeSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "-editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "workbench.action.closeEditorsInOtherGroups"
+    },
+    {
+        "key": "alt+s",
+        "command": "workbench.action.focusSideBar"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "-workbench.action.focusSideBar"
+    }
+]
