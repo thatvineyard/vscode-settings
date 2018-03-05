@@ -1,5 +1,6 @@
 {
     "workbench.startupEditor": "newUntitledFile",
     "editor.fontSize": 12,
-    "editor.cursorStyle": "underline-thin"
+    "editor.cursorStyle": "underline-thin",
+    "git.confirmSync": false
 }
