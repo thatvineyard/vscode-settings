@@ -2,5 +2,15 @@
     "workbench.startupEditor": "newUntitledFile",
     "editor.fontSize": 12,
     "editor.cursorStyle": "underline-thin",
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+    "editor.minimap.enabled": true,
+    "editor.formatOnSave": true,
+    "csharp.format.enable": false,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "window.zoomLevel": 0,
+    "terminal.integrated.fontSize": 10,
+    "files.autoSave": "off",
+    "csharp.suppressDotnetInstallWarning": true
 }
