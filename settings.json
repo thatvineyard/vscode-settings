@@ -9,8 +9,9 @@
     "editor.formatOnSave": true,
     "csharp.format.enable": false,
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "terminal.integrated.fontSize": 10,
     "files.autoSave": "off",
-    "csharp.suppressDotnetInstallWarning": true
+    "csharp.suppressDotnetInstallWarning": true,
+    "zenMode.fullScreen": false
 }
